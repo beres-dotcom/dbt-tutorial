@@ -4,11 +4,11 @@ jaffle_shop:
   outputs:
     dev:
       type: snowflake
-      account: et10065.eu-central-1
+      account: wx59536.eu-west-3.aws
       
       # User/password auth
       user: ABERNAL
-      password: Tui@2023
+      password: L3talBern4l
 
       role: ACCOUNTADMIN
       database: RAW
