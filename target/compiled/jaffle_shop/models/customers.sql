@@ -1,18 +1,18 @@
 with customers as (
 
-    select * from PC_DBT_DB.PUBLIC.stg_customers
+    select * from RAW.PUBLIC.stg_customers
 
 ),
 
 orders as (
 
-    select * from PC_DBT_DB.PUBLIC.stg_orders
+    select * from RAW.PUBLIC.stg_orders
 
 ),
 
 payments as (
 
-    select * from PC_DBT_DB.PUBLIC.stg_payments
+    select * from RAW.PUBLIC.stg_payments
 
 ),
 

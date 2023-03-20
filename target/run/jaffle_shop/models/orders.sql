@@ -2,18 +2,18 @@
   
     
 
-        create or replace transient table PC_DBT_DB.PUBLIC.orders  as
+        create or replace transient table RAW.PUBLIC.orders  as
         (
 
 with orders as (
 
-    select * from PC_DBT_DB.PUBLIC.stg_orders
+    select * from RAW.PUBLIC.stg_orders
 
 ),
 
 payments as (
 
-    select * from PC_DBT_DB.PUBLIC.stg_payments
+    select * from RAW.PUBLIC.stg_payments
 
 ),
 
